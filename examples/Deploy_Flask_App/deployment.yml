@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: simple-flask
-        image: IMAGE_TAG
+        image: djserra/simple-flask:latest
         securityContext:
           privileged: false
           readOnlyRootFilesystem: false
